@@ -1,4 +1,4 @@
-export const Page404 = () => {
+export const Page404: React.FC = () => {
   return (
     <div>
       <h1>404</h1>
