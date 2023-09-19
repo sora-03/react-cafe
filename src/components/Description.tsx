@@ -5,11 +5,7 @@ const Description = () => {
         <h1 className="text-4xl mb-12">Welcome</h1>
         <h2 className="text-2xl mb-10">【squirrel】</h2>
         <p className="leading-10">
-          自然豊かな環境で、ゆったりとお食事を楽しんでいただける場所。
-          <br />
-          新鮮な食材を使用した料理を提供し、
-          <br />
-          心地よい自然の中でくつろいでいただけます。
+          自然豊かな空間で、ゆったりとお食事を。
           <br />
           季節ごとに変わる美しい景色と共に、
           <br />
@@ -17,7 +13,7 @@ const Description = () => {
           <br />
           リラックスした雰囲気の中で、
           <br />
-          美味しい料理を味わいながら贅沢なひとときをお過ごしください。
+          美味しい料理を味わいながら贅沢なひとときを。
         </p>
       </div>
       <div className="flex items-center justify-center w-full md:w-1/3">
