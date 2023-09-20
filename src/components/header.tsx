@@ -1,13 +1,15 @@
+import Burger from "./Burger";
+
 const Header = () => {
   return (
-    <header>
+    <header className="sticky">
       <div className="flex justify-center">
         <img src="../../public/images/home.svg" alt="リス" />
       </div>
       <p className="flex justify-center text-sm text-yellow-300">
         緑豊かななく浮かんで心満ちる時間を
       </p>
-      <nav className="text-center mt-4">
+      <nav className="text-center mt-4 hidden md:block">
         <ul className="m-0 p-0">
           <li className="inline-block w-28 hover:border-b-2 hover:border-yellow-300 hover:bg-yellow-50">
             <a href="#">HOME</a>

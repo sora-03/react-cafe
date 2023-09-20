@@ -1,3 +1,4 @@
+import Burger from "./components/Burger";
 import Description from "./components/Description";
 import { Footer } from "./components/Footer";
 import Header from "./components/Header";
@@ -8,6 +9,7 @@ import Summary from "./components/Summary";
 function App() {
   return (
     <div className="App">
+      <Burger />
       <Header />
       <Image />
       <Description />
