@@ -1,10 +1,8 @@
-import Burger from "./Burger";
-
 const Header = () => {
   return (
     <header className="sticky">
       <div className="flex justify-center">
-        <img src="../../public/images/home.svg" alt="リス" />
+        <img src="../../public/images/home.svg" alt="リス" className="w-24" />
       </div>
       <p className="flex justify-center text-sm text-yellow-300">
         緑豊かななく浮かんで心満ちる時間を
